@@ -1,6 +1,16 @@
 import React, { Component } from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 
+const nodeNameSort = (a, b) => {
+    if (a.node.name < b.node.name) {
+        return -1;
+    }
+    if (a.node.name > b.node.name) {
+        return 1;
+    }
+    return 0;
+}
+
 class StateDivisionList extends Component {
     render = () => {
         let display = "none";
@@ -54,31 +64,22 @@ class DivisionSelector extends Component {
             }
         `}
         render={data => {
-            let states = {};
-            data.allStatesYaml.edges.forEach((state) => {
-                states[state.node.abbreviation] = state.node.name;
-            });
+            let states = data.allStatesYaml.edges;
+            states.sort(nodeNameSort);
 
-            let orderedStates = data.allStatesYaml.edges;
-            orderedStates.sort((a, b) => {
-                if (a.node.name < b.node.name) {
-                    return -1;
-                }
-                if (a.node.name > b.node.name) {
-                    return 1;
-                }
-                return 0;
-            });
-            let options = orderedStates.map((state) => (
-                <option key={"selector-" + state.node.abbreviation} value={state.node.abbreviation}>{state.node.name}</option>
-            ));
-            let selector = (<select key="selector" onChange={this.changeState}><option value="">Select your state...</option>{options}</select>);
-
-            let divisions = data.allDivisionsYaml.group.map((state) => (
-                <StateDivisionList key={state.fieldValue} visible={this.state.state == state.fieldValue} stateName={states[state.fieldValue]} divisions={state.edges} />
-            ));
-            divisions.unshift(selector);
-            return divisions;
+            return (
+                <div>
+                    <select onChange={this.changeState}>
+                        <option value="">Select your state...</option>
+                        {states.map((state) => (
+                            <option key={"selector-" + state.node.abbreviation} value={state.node.abbreviation}>{state.node.name}</option>
+                        ))}
+                    </select>
+                    {data.allDivisionsYaml.group.map((state) => (
+                        <StateDivisionList key={state.fieldValue} visible={this.state.state === state.fieldValue} divisions={state.edges} />
+                    ))}
+                </div>
+            )
         }}
     />)
 
