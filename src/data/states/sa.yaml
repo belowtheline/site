@@ -2,6 +2,17 @@ abbreviation: sa
 name: South Australia
 groups:
   alp:
-    name: Australian Labor Party
-    candidates:
-    - alex-gallacher
+  - alex-gallacher
+  - marielle-smith
+  lib:
+  - anne-ruston
+  - david-fawcett
+  - alex-antic
+  - lucy-gichuhi
+  grn:
+  - sarah-hanson-young
+  - major-sumner[30]
+  ca:
+  - skye-kakoschke-moore
+  con:
+  - rikki-lambert

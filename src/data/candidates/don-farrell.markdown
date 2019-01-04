@@ -2,7 +2,6 @@
 name: Don Farrell
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/don-farrell/
-  type: party
+  party: https://alp.org.au/our-people/our-people/don-farrell/
 ---
 Some verbiage about the candidate here.

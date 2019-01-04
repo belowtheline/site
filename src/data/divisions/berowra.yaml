@@ -1,4 +1,6 @@
 name: Berowra
 state: nsw
 current_representative: null
-candidates: []
+candidates:
+- julian-leeser
+- monica-tan

@@ -2,7 +2,6 @@
 name: Tracey Bell
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/tracey-bell/
-  type: party
+  party: https://alp.org.au/our-people/our-people/tracey-bell/
 ---
 Some verbiage about the candidate here.

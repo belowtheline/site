@@ -1,4 +1,5 @@
 name: Kooyong
 state: vic
 current_representative: null
-candidates: []
+candidates:
+- josh-frydenberg

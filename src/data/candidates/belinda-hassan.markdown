@@ -2,7 +2,6 @@
 name: Belinda Hassan
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/belinda-hassan/
-  type: party
+  party: https://alp.org.au/our-people/our-people/belinda-hassan/
 ---
 Some verbiage about the candidate here.

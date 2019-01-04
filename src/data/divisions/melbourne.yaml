@@ -1,4 +1,5 @@
 name: Melbourne
 state: vic
 current_representative: null
-candidates: []
+candidates:
+- adam-bandt

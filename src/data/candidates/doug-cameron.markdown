@@ -2,7 +2,6 @@
 name: Doug Cameron
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/doug-cameron/
-  type: party
+  party: https://alp.org.au/our-people/our-people/doug-cameron/
 ---
 Some verbiage about the candidate here.

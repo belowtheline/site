@@ -2,7 +2,6 @@
 name: Ross Hart
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/ross-hart/
-  type: party
+  party: https://alp.org.au/our-people/our-people/ross-hart/
 ---
 Some verbiage about the candidate here.

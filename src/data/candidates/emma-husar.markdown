@@ -2,7 +2,6 @@
 name: Emma Husar
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/emma-husar/
-  type: party
+  party: https://alp.org.au/our-people/our-people/emma-husar/
 ---
 Some verbiage about the candidate here.

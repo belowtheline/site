@@ -2,7 +2,7 @@
 name: Tim Watts
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/tim-watts/
-  type: party
+  party: https://alp.org.au/our-people/our-people/tim-watts/
+  wikipedia: https://en.wikipedia.org/wiki/Tim_Watts_(politician)
 ---
 Some verbiage about the candidate here.

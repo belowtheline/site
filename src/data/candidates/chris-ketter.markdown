@@ -2,7 +2,6 @@
 name: Chris Ketter
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/chris-ketter/
-  type: party
+  party: https://alp.org.au/our-people/our-people/chris-ketter/
 ---
 Some verbiage about the candidate here.

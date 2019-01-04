@@ -2,7 +2,6 @@
 name: Chris Gambian
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/chris-gambian/
-  type: party
+  party: https://alp.org.au/our-people/our-people/chris-gambian/
 ---
 Some verbiage about the candidate here.

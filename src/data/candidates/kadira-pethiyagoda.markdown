@@ -2,7 +2,6 @@
 name: Kadira Pethiyagoda
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/kadira-pethiyagoda/
-  type: party
+  party: https://alp.org.au/our-people/our-people/kadira-pethiyagoda/
 ---
 Some verbiage about the candidate here.

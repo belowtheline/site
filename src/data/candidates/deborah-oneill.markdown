@@ -2,7 +2,6 @@
 name: Deborah O'Neill
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/deborah-oneill/
-  type: party
+  party: https://alp.org.au/our-people/our-people/deborah-oneill/
 ---
 Some verbiage about the candidate here.

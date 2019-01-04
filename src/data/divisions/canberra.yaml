@@ -1,4 +1,7 @@
 name: Canberra
 state: act
 current_representative: null
-candidates: []
+candidates:
+- alicia-payne
+- tim-hollo
+- max-black

@@ -2,7 +2,6 @@
 name: Simon Curtis
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/simon-curtis/
-  type: party
+  party: https://alp.org.au/our-people/our-people/simon-curtis/
 ---
 Some verbiage about the candidate here.

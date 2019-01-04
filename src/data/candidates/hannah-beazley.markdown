@@ -2,7 +2,6 @@
 name: Hannah Beazley
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/hannah-beazley/
-  type: party
+  party: https://alp.org.au/our-people/our-people/hannah-beazley/
 ---
 Some verbiage about the candidate here.

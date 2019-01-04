@@ -1,4 +1,5 @@
 name: Fairfax
 state: qld
 current_representative: null
-candidates: []
+candidates:
+- michelle-dracoulis

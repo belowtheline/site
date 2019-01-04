@@ -1,4 +1,7 @@
 name: Bradfield
 state: nsw
 current_representative: null
-candidates: []
+candidates:
+- chris-haviland
+- paul-fletcher
+- tony-adams

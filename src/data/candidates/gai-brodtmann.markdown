@@ -2,7 +2,6 @@
 name: Gai Brodtmann
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/gai-brodtmann/
-  type: party
+  party: https://alp.org.au/our-people/our-people/gai-brodtmann/
 ---
 Some verbiage about the candidate here.

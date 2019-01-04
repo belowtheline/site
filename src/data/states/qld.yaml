@@ -1,3 +1,9 @@
 abbreviation: qld
 name: Queensland
-groups: []
+groups:
+  con:
+  - lyle-shelton
+  - joanna-lindgren
+  phon:
+  - malcolm-roberts
+  - steve-dickson

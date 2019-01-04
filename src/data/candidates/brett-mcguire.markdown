@@ -2,7 +2,6 @@
 name: Brett McGuire
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/brett-mcguire/
-  type: party
+  party: https://alp.org.au/our-people/our-people/brett-mcguire/
 ---
 Some verbiage about the candidate here.

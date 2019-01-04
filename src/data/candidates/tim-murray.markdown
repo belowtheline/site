@@ -2,7 +2,6 @@
 name: Tim Murray
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/tim-murray/
-  type: party
+  party: https://alp.org.au/our-people/our-people/tim-murray/
 ---
 Some verbiage about the candidate here.

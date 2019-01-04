@@ -2,7 +2,6 @@
 name: Simon O'Brien
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/simon-obrien/
-  type: party
+  party: https://alp.org.au/our-people/our-people/simon-obrien/
 ---
 Some verbiage about the candidate here.

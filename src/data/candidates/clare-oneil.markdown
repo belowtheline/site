@@ -2,7 +2,7 @@
 name: Clare O'Neil
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/clare-oneil/
-  type: party
+  party: https://alp.org.au/our-people/our-people/clare-oneil/
+  wikipedia: https://en.wikipedia.org/wiki/Clare_O%27Neil
 ---
 Some verbiage about the candidate here.

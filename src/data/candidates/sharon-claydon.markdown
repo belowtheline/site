@@ -2,7 +2,6 @@
 name: Sharon Claydon
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/sharon-claydon/
-  type: party
+  party: https://alp.org.au/our-people/our-people/sharon-claydon/
 ---
 Some verbiage about the candidate here.

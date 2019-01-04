@@ -2,7 +2,6 @@
 name: Katy Gallagher
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/katy-gallagher/
-  type: party
+  party: https://alp.org.au/our-people/our-people/katy-gallagher/
 ---
 Some verbiage about the candidate here.

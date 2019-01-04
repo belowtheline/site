@@ -2,7 +2,6 @@
 name: Ali France
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/ali-france/
-  type: party
+  party: https://alp.org.au/our-people/our-people/ali-france/
 ---
 Some verbiage about the candidate here.

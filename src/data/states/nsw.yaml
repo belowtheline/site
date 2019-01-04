@@ -1,3 +1,7 @@
 abbreviation: nsw
 name: New South Wales
-groups: []
+groups:
+  con:
+  - sophie-york
+  - riccardo-bosi
+  - kirralie-smith

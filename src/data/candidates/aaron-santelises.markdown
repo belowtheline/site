@@ -2,7 +2,6 @@
 name: Aaron Santelises
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/aaron-santelises/
-  type: party
+  party: https://alp.org.au/our-people/our-people/aaron-santelises/
 ---
 Some verbiage about the candidate here.

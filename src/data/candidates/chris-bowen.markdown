@@ -2,7 +2,6 @@
 name: Chris Bowen
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/chris-bowen/
-  type: party
+  party: https://alp.org.au/our-people/our-people/chris-bowen/
 ---
 Some verbiage about the candidate here.

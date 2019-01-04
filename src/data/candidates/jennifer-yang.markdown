@@ -2,7 +2,6 @@
 name: Jennifer Yang
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/jennifer-yang/
-  type: party
+  party: https://alp.org.au/our-people/our-people/jennifer-yang/
 ---
 Some verbiage about the candidate here.

@@ -2,7 +2,7 @@
 name: Patrick Gorman
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/patrick-gorman/
-  type: party
+  party: https://alp.org.au/our-people/our-people/patrick-gorman/
+  wikipedia: https://en.wikipedia.org/wiki/Patrick_Gorman_(politician)
 ---
 Some verbiage about the candidate here.

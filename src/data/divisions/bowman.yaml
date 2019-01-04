@@ -1,4 +1,6 @@
 name: Bowman
 state: qld
 current_representative: null
-candidates: []
+candidates:
+- tom-baster
+- andrew-laming

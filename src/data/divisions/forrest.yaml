@@ -1,4 +1,6 @@
 name: Forrest
 state: wa
 current_representative: null
-candidates: []
+candidates:
+- nola-marino
+- nerilee-boshammer

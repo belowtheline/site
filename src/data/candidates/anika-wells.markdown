@@ -2,7 +2,6 @@
 name: Anika Wells
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/anika-wells/
-  type: party
+  party: https://alp.org.au/our-people/our-people/anika-wells/
 ---
 Some verbiage about the candidate here.

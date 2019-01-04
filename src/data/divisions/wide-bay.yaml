@@ -1,4 +1,5 @@
 name: Wide Bay
 state: qld
 current_representative: null
-candidates: []
+candidates:
+- tim-jerome

@@ -1,4 +1,5 @@
 name: Hume
 state: nsw
 current_representative: null
-candidates: []
+candidates:
+- angus-taylor

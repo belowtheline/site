@@ -2,7 +2,6 @@
 name: Glenn Sterle
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/glenn-sterle/
-  type: party
+  party: https://alp.org.au/our-people/our-people/glenn-sterle/
 ---
 Some verbiage about the candidate here.

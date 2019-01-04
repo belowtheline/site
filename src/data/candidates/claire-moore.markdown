@@ -2,7 +2,6 @@
 name: Claire Moore
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/claire-moore/
-  type: party
+  party: https://alp.org.au/our-people/our-people/claire-moore/
 ---
 Some verbiage about the candidate here.

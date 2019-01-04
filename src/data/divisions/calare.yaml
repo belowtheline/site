@@ -1,4 +1,5 @@
 name: Calare
 state: nsw
 current_representative: null
-candidates: []
+candidates:
+- andrew-gee

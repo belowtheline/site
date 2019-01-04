@@ -2,7 +2,6 @@
 name: Des Hardman
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/des-hardman/
-  type: party
+  party: https://alp.org.au/our-people/our-people/des-hardman/
 ---
 Some verbiage about the candidate here.

@@ -2,7 +2,6 @@
 name: Jessica O'Donnell
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/jessica-odonnell/
-  type: party
+  party: https://alp.org.au/our-people/our-people/jessica-odonnell/
 ---
 Some verbiage about the candidate here.

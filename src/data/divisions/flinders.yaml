@@ -1,4 +1,5 @@
 name: Flinders
 state: vic
 current_representative: null
-candidates: []
+candidates:
+- greg-hunt

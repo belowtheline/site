@@ -2,7 +2,6 @@
 name: Anne Urquhart
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/anne-urquhart/
-  type: party
+  party: https://alp.org.au/our-people/our-people/anne-urquhart/
 ---
 Some verbiage about the candidate here.

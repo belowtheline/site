@@ -2,7 +2,6 @@
 name: Lisa Chesters
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/lisa-chesters/
-  type: party
+  party: https://alp.org.au/our-people/our-people/lisa-chesters/
 ---
 Some verbiage about the candidate here.

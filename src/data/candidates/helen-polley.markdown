@@ -2,7 +2,6 @@
 name: Helen Polley
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/helen-polley/
-  type: party
+  party: https://alp.org.au/our-people/our-people/helen-polley/
 ---
 Some verbiage about the candidate here.

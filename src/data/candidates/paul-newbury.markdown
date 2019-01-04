@@ -2,7 +2,6 @@
 name: Paul Newbury
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/paul-newbury/
-  type: party
+  party: https://alp.org.au/our-people/our-people/paul-newbury/
 ---
 Some verbiage about the candidate here.

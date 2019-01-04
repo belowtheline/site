@@ -2,7 +2,6 @@
 name: Meryl Swanson
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/meryl-swanson/
-  type: party
+  party: https://alp.org.au/our-people/our-people/meryl-swanson/
 ---
 Some verbiage about the candidate here.

@@ -1,4 +1,6 @@
 name: Grey
 state: sa
 current_representative: null
-candidates: []
+candidates:
+- rowan-ramsey
+- andrea-broadfoot

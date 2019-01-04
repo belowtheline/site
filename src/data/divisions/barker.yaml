@@ -1,4 +1,7 @@
 name: Barker
 state: sa
 current_representative: null
-candidates: []
+candidates:
+- tony-pasin
+- rosa-hillam
+- kelly-gladigau

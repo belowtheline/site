@@ -2,7 +2,6 @@
 name: Penny Wong
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/penny-wong/
-  type: party
+  party: https://alp.org.au/our-people/our-people/penny-wong/
 ---
 Some verbiage about the candidate here.

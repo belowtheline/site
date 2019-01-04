@@ -2,7 +2,7 @@
 name: Ged Kearney
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/ged-kearney/
-  type: party
+  party: https://alp.org.au/our-people/our-people/ged-kearney/
+  wikipedia: https://en.wikipedia.org/wiki/Ged_Kearney
 ---
 Some verbiage about the candidate here.

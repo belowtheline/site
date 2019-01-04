@@ -2,7 +2,6 @@
 name: Anthony Chisholm
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/anthony-chisholm/
-  type: party
+  party: https://alp.org.au/our-people/our-people/anthony-chisholm/
 ---
 Some verbiage about the candidate here.

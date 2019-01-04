@@ -2,7 +2,6 @@
 name: Tony Walker
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/tony-walker/
-  type: party
+  party: https://alp.org.au/our-people/our-people/tony-walker/
 ---
 Some verbiage about the candidate here.

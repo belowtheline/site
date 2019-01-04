@@ -2,7 +2,6 @@
 name: Kim Travers
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/kim-travers/
-  type: party
+  party: https://alp.org.au/our-people/our-people/kim-travers/
 ---
 Some verbiage about the candidate here.

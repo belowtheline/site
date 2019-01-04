@@ -2,7 +2,6 @@
 name: Diedree Steinwall
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/diedree-steinwall/
-  type: party
+  party: https://alp.org.au/our-people/our-people/diedree-steinwall/
 ---
 Some verbiage about the candidate here.

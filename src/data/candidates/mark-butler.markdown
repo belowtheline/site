@@ -2,7 +2,7 @@
 name: Mark Butler
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/mark-butler/
-  type: party
+  party: https://alp.org.au/our-people/our-people/mark-butler/
+  wikipedia: https://en.wikipedia.org/wiki/Mark_Butler
 ---
 Some verbiage about the candidate here.

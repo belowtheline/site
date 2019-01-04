@@ -2,7 +2,7 @@
 name: Andrew Giles
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/andrew-giles/
-  type: party
+  party: https://alp.org.au/our-people/our-people/andrew-giles/
+  wikipedia: https://en.wikipedia.org/wiki/Andrew_Giles
 ---
 Some verbiage about the candidate here.

@@ -2,7 +2,6 @@
 name: Kieran Drabsch
 party: alp
 urls:
-- url: https://alp.org.au/our-people/our-people/kieran-drabsch/
-  type: party
+  party: https://alp.org.au/our-people/our-people/kieran-drabsch/
 ---
 Some verbiage about the candidate here.

@@ -2,7 +2,19 @@ abbreviation: wa
 name: Western Australia
 groups:
   alp:
-    name: Australian Labor Party
-    candidates:
-    - patrick-dodson
-    - louise-pratt
+  - patrick-dodson
+  - louise-pratt
+  lib:
+  - linda-reynolds
+  - slade-brockman
+  - matt-osullivan
+  - trischa-botha
+  grn:
+  - jordon-steele-john
+  nat:
+  - nick-fardell
+  con:
+  - jonathan-crabtree
+  - peter-castieau
+  phon:
+  - peter-georgiou
