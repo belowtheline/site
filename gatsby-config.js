@@ -29,6 +29,7 @@ module.exports = {
     },
     `gatsby-plugin-typescript`,
     `gatsby-transformer-yaml`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
