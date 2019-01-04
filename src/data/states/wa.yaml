@@ -1,2 +1,8 @@
-name: Western Australia
 abbreviation: wa
+name: Western Australia
+groups:
+  alp:
+    name: Australian Labor Party
+    candidates:
+    - patrick-dodson
+    - louise-pratt

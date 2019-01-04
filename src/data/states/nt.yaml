@@ -1,2 +1,7 @@
-name: Northern Territory
 abbreviation: nt
+name: Northern Territory
+groups:
+  alp:
+    name: Australian Labor Party
+    candidates:
+    - malarndirri-mccarthy

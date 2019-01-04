@@ -1,2 +1,7 @@
-name: Australian Capital Territory
 abbreviation: act
+name: Australian Capital Territory
+groups:
+  alp:
+    name: Australian Labor Party
+    candidates:
+    - katy-gallagher

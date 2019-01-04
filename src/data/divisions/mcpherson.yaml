@@ -1,2 +1,5 @@
 name: McPherson
 state: qld
+current_representative: null
+candidates:
+- aaron-santelises

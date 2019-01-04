@@ -1,2 +1,5 @@
 name: Brand
 state: wa
+current_representative: null
+candidates:
+- madeleine-king

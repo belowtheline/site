@@ -1,2 +1,5 @@
 name: Maribyrnong
 state: vic
+current_representative: null
+candidates:
+- bill-shorten

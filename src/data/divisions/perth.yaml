@@ -1,2 +1,5 @@
 name: Perth
 state: wa
+current_representative: null
+candidates:
+- patrick-gorman

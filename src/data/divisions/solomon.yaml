@@ -1,2 +1,5 @@
 name: Solomon
 state: nt
+current_representative: null
+candidates:
+- luke-gosling

@@ -1,2 +1,5 @@
 name: Burt
 state: wa
+current_representative: null
+candidates:
+- matt-keogh

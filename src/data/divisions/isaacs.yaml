@@ -1,2 +1,5 @@
 name: Isaacs
 state: vic
+current_representative: null
+candidates:
+- mark-dreyfus

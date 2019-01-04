@@ -1,2 +1,8 @@
-name: Victoria
 abbreviation: vic
+name: Victoria
+groups:
+  alp:
+    name: Australian Labor Party
+    candidates:
+    - jacinta-collins
+    - gavin-marshall

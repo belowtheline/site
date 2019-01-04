@@ -1,2 +1,5 @@
 name: Gellibrand
 state: vic
+current_representative: null
+candidates:
+- tim-watts

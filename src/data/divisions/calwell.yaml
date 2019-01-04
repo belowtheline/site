@@ -1,2 +1,5 @@
 name: Calwell
 state: vic
+current_representative: null
+candidates:
+- maria-vamvakinou

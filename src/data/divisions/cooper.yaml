@@ -1,2 +1,5 @@
 name: Cooper
 state: vic
+current_representative: null
+candidates:
+- ged-kearney

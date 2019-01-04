@@ -1,2 +1,5 @@
 name: Brisbane
 state: qld
+current_representative: null
+candidates:
+- paul-newbury

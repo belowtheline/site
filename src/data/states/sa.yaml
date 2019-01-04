@@ -1,2 +1,7 @@
-name: South Australia
 abbreviation: sa
+name: South Australia
+groups:
+  alp:
+    name: Australian Labor Party
+    candidates:
+    - alex-gallacher

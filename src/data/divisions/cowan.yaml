@@ -1,2 +1,5 @@
 name: Cowan
 state: wa
+current_representative: null
+candidates:
+- anne-aly

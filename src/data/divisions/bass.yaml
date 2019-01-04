@@ -1,2 +1,5 @@
 name: Bass
 state: tas
+current_representative: null
+candidates:
+- ross-hart

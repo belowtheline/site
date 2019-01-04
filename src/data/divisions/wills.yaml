@@ -1,6 +1,5 @@
 name: Wills
 state: vic
-current_representative:
-  - peter_khalil
+current_representative: peter-khalil
 candidates:
-  - peter_khalil
+- peter-khalil

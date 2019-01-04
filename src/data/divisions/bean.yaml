@@ -1,2 +1,5 @@
 name: Bean
 state: act
+current_representative: null
+candidates:
+- david-smith

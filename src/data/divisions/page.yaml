@@ -1,2 +1,5 @@
 name: Page
 state: nsw
+current_representative: null
+candidates:
+- patrick-deegan

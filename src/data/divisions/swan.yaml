@@ -1,2 +1,5 @@
 name: Swan
 state: wa
+current_representative: null
+candidates:
+- hannah-beazley

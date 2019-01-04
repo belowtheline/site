@@ -1,2 +1,5 @@
 name: Bruce
 state: vic
+current_representative: null
+candidates:
+- julian-hill

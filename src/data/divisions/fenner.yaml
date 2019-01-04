@@ -1,2 +1,5 @@
 name: Fenner
 state: act
+current_representative: null
+candidates:
+- andrew-leigh

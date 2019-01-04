@@ -1,2 +1,5 @@
 name: Lyons
 state: tas
+current_representative: null
+candidates:
+- brian-mitchell

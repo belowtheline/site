@@ -1,2 +1,5 @@
 name: Flynn
 state: qld
+current_representative: null
+candidates:
+- zac-beers
