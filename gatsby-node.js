@@ -17,28 +17,27 @@ exports.createPages = ({ graphql, actions }) => {
     const { createPage } = actions
     return new Promise((resolve, reject) => {
         graphql(`
-        {
-          allStatesYaml {
-            edges {
-              node {
-                fields {
-                  slug
+            {
+                allStatesYaml {
+                    edges {
+                        node {
+                            fields {
+                                slug
+                            }
+                        }
+                    }
                 }
-              }
-            }
-          },
-          allDivisionsYaml {
-            edges {
-              node {
-                fields {
-                  slug
+                allDivisionsYaml {
+                    edges {
+                        node {
+                            fields {
+                                slug
+                            }
+                        }
+                    }
                 }
-              }
             }
-          }
-        }
-      `
-        ).then(result => {
+        `).then(result => {
             result.data.allStatesYaml.edges.forEach(({ node }) => {
                 createPage({
                     path: node.fields.slug,
@@ -61,6 +60,18 @@ exports.createPages = ({ graphql, actions }) => {
                     },
                 })
             })
+
+            // Temporary Vote page creation before data
+            createPage({
+                path: 'vote',
+                component: path.resolve(`./src/templates/vote-page.js`),
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: 'vote',
+                },
+            })
+
             resolve()
         })
     })

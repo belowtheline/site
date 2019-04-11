@@ -1,6 +1,6 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 export default ({ data }) => {
     const state = data.statesYaml
@@ -17,6 +17,6 @@ export const query = graphql`
     query($slug: String!) {
         statesYaml(fields: { slug: { eq: $slug } }) {
             name
-      }
+        }
     }
-  `
+`
