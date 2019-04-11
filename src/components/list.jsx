@@ -1,26 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
-const ListData = [
-    {
-        name: 'Bob Doggy',
-        id: 'dingo-party-bob-doggy',
-        partyId: 'dingo-party',
-        description: 'Some desc here blah',
-    },
-    {
-        name: 'Frank Kangaroo',
-        id: 'dingo-party-frank-doggy',
-        partyId: 'dingo-party',
-        description: 'Some desc here blah',
-    },
-    {
-        name: 'Sue Koala',
-        id: 'dingo-party-sue-doggy',
-        partyId: 'dingo-party',
-        description: 'Some desc here blah',
-    },
-]
+import { Droppable, Draggable } from 'react-beautiful-dnd'
 
 const Ul = styled.ul`
     margin: 0;
@@ -28,10 +8,26 @@ const Ul = styled.ul`
     list-style: none;
 `
 
-const ListItem = styled.li`
+const Li = styled.li`
     padding: 0.25em;
     border: 1px solid black;
+    background-color: white;
 `
+
+const Option = ({ val, draggableId, index }) => (
+    <Draggable draggableId={draggableId} index={index}>
+        {provided => (
+            <Li
+                ref={provided.innerRef}
+                {...provided.draggableProps}
+                {...provided.dragHandleProps}
+                key={draggableId}
+            >
+                {index + 1} {val.surname}, {val.given}
+            </Li>
+        )}
+    </Draggable>
+)
 
 class List extends Component {
     constructor() {
@@ -40,13 +36,23 @@ class List extends Component {
 
     render() {
         return (
-            <div>
-                <Ul>
-                    {ListData.map((val, ind) => (
-                        <ListItem key={ind}>{val.name}</ListItem>
-                    ))}
-                </Ul>
-            </div>
+            <Droppable droppableId="basic">
+                {provided => (
+                    <div ref={provided.innerRef} {...provided.droppableProps}>
+                        <Ul>
+                            {this.props.order.map((val, ind) => (
+                                <Option
+                                    key={val}
+                                    draggableId={val}
+                                    index={ind}
+                                    val={this.props.voteData[val]}
+                                />
+                            ))}
+                            {provided.placeholder}
+                        </Ul>
+                    </div>
+                )}
+            </Droppable>
         )
     }
 }

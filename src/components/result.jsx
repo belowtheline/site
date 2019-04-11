@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import propTypes from 'prop-types'
 import Candidate from './candidate'
 
 const VoteContainer = styled.div`
@@ -64,12 +65,6 @@ const Title = styled.h2`
     line-height: 1;
 `
 
-const voteData = {
-    name: 'Batman',
-    slug: 'vote-batman',
-    candidates: [],
-}
-
 const PartyTitle = styled.span`
     display: block;
     text-transform: uppercase;
@@ -96,25 +91,14 @@ const Arrow = styled.span`
     margin: 1rem 0 1rem;
 `
 
-const CandidateData = [
-    'a',
-    'b',
-    'c',
-    'd',
-    'e',
-    'f',
-    'g',
-    'h',
-    'i',
-    'j',
-    'k',
-    'l',
-]
-
-const Result = () => (
+const Result = ({ voteData, partyData }) => (
     <VoteContainer>
-        <Inner style={{ width: `${(CandidateData.length + 1) * 10}em` }}>
-            <Row>
+        {console.log(partyData)}
+        {console.log(Object.keys(partyData))}
+        <Inner
+            style={{ width: `${(Object.keys(partyData).length + 1) * 10}em` }}
+        >
+            <Row style={{ height: '11.5em', overflow: 'hidden' }}>
                 <ContentCol>
                     <Title>
                         You may vote in one of two ways <Arrow>Either:</Arrow>
@@ -126,9 +110,9 @@ const Result = () => (
                         choice)
                     </FirstContent>
                 </ContentCol>
-                {CandidateData.map((val, ind) => (
+                {Object.keys(partyData).map((val, ind) => (
                     <Col key={ind}>
-                        <ColLabel>{val}</ColLabel> Above the line data
+                        <ColLabel>{val}</ColLabel> {partyData[val].name}
                     </Col>
                 ))}
             </Row>
@@ -143,30 +127,30 @@ const Result = () => (
                         your choice (with number 1 as your first choice).
                     </FirstContent>
                 </ContentCol>
-                {CandidateData.map((val, ind) => (
+                {Object.keys(partyData).map((val, ind) => (
                     <Col key={ind}>
                         <ColLabel>{val}</ColLabel>
-                        <PartyTitle>
-                            {'The Dingo Party of Australia'}
-                        </PartyTitle>
+                        {/* <PartyTitle>{partyData[val].name}</PartyTitle> */}
+                        <PartyTitle>{val}</PartyTitle>
                         {/*Loop over Candidate Data later */}
-                        <Candidate
-                            given={'Johnny'}
-                            surname={'Citizen'}
-                            party={'The Dingo Party of Australia'}
-                            vote={10}
-                        />
-                        <Candidate
-                            given={'Koala'}
-                            surname={'Fluffy'}
-                            party={'The Dingo Party of Australia'}
-                            vote={10}
-                        />
+                        {partyData[val].candidates.map((cVal, c) => (
+                            <Candidate
+                                given={voteData[cVal].given}
+                                surname={voteData[cVal].surname}
+                                party={partyData[val].name}
+                                vote={voteData[cVal].order}
+                            />
+                        ))}
                     </Col>
                 ))}
             </Row>
         </Inner>
     </VoteContainer>
 )
+
+Result.propTypes = {
+    voteData: propTypes.object.isRequired,
+    partyData: propTypes.object.isRequired,
+}
 
 export default Result
