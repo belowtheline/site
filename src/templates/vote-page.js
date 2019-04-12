@@ -4,6 +4,7 @@ import { DragDropContext } from 'react-beautiful-dnd'
 import styled from 'styled-components'
 import List from '../components/list'
 import Result from '../components/result'
+import Layout from '../components/layout'
 
 const FullWidth = styled.div`
     width: 100%;
@@ -20,7 +21,7 @@ const Container = styled.div`
 `
 
 const ColData = styled.div`
-    width: 15em;
+    width: 100%;
     padding: 0 0.5em 0.5em;
 
     @media screen and (min-width: 50em) {
@@ -136,27 +137,31 @@ export default class App extends Component {
 
     render() {
         return (
-            <DragDropContext onDragEnd={this.onDragEnd}>
-                <FullWidth>
-                    <div>
-                        <h1>Vote page</h1>
-                    </div>
-                    <Container>
-                        <ColData>
-                            <List
-                                voteData={this.state.data}
-                                order={this.state.order}
-                            />
-                        </ColData>
-                        <ColResult>
-                            <Result
-                                voteData={this.state.data}
-                                partyData={this.state.partyData}
-                            />
-                        </ColResult>
-                    </Container>
-                </FullWidth>
-            </DragDropContext>
+            <Layout noColumn={true}>
+                <DragDropContext onDragEnd={this.onDragEnd}>
+                    <FullWidth>
+                        <div>
+                            <h1>Vote</h1>
+                        </div>
+                        <Container>
+                            <ColData>
+                                <h2>1. Set order here</h2>
+                                <List
+                                    voteData={this.state.data}
+                                    order={this.state.order}
+                                />
+                            </ColData>
+                            <ColResult>
+                                <h2>2. What your vote looks like here</h2>
+                                <Result
+                                    voteData={this.state.data}
+                                    partyData={this.state.partyData}
+                                />
+                            </ColResult>
+                        </Container>
+                    </FullWidth>
+                </DragDropContext>
+            </Layout>
         )
     }
 }

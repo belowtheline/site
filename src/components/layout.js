@@ -4,9 +4,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
 import Header from './header'
-import './layout.css'
+import './reset.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, noColumn }) => (
     <StaticQuery
         query={graphql`
             query SiteTitleQuery {
@@ -27,12 +27,16 @@ const Layout = ({ children }) => (
                 </Helmet>
                 <Header siteTitle={data.site.siteMetadata.title} />
                 <div
-                    style={{
-                        margin: `0 auto`,
-                        maxWidth: 960,
-                        padding: `0px 1.0875rem 1.45rem`,
-                        paddingTop: 0,
-                    }}
+                    style={
+                        noColumn
+                            ? null
+                            : {
+                                  margin: `0 auto`,
+                                  maxWidth: 960,
+                                  padding: `0px 1.0875rem 1.45rem`,
+                                  paddingTop: 0,
+                              }
+                    }
                 >
                     {children}
                     <footer>
