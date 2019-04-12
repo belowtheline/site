@@ -61,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
                 })
             })
 
-            // Temporary Vote page creation before data
+            // Temporary Vote page creation before data is available
             createPage({
                 path: 'vote',
                 component: path.resolve(`./src/templates/vote-page.js`),
