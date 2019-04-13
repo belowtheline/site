@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import propTypes from 'prop-types'
 import Candidate from './candidate'
@@ -93,8 +93,6 @@ const Arrow = styled.span`
 
 const Result = ({ voteData, partyData }) => (
     <VoteContainer>
-        {console.log(partyData)}
-        {console.log(Object.keys(partyData))}
         <Inner
             style={{ width: `${(Object.keys(partyData).length + 1) * 10}em` }}
         >

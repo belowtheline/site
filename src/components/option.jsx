@@ -1,14 +1,7 @@
+import React from 'react'
 import styled from 'styled-components'
 import { Draggable } from 'react-beautiful-dnd'
 import propTypes from 'prop-types'
-
-const Ul = styled.ul`
-    margin: 0;
-    padding: 0.5em;
-    list-style: none;
-    background: ${props => (props.isDragging ? 'turquoise' : 'white')};
-    transition: background-color 0.25s ease;
-`
 
 const Li = styled.li`
     display: flex;
